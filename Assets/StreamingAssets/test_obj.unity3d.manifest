@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1461307489
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1cc36d158188973c180480e3161944f0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b569ffc4f21cb6608b076248234c5c9d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/GameObj/test_obj/LongBoard.prefab
+Dependencies: []

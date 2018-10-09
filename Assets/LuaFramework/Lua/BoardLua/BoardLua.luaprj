@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="BoardLua.luaprj" Cmd="" Arg="" Dir="" Toggle="false" >
+    <Filter RelativePath=".\.." Toggle="false" >
+        <LuaFile RelativePath=".\eventlib.lua" />
+        <LuaFile RelativePath=".\events.lua" />
+        <LuaFile RelativePath=".\Main.lua" />
+        <Filter RelativePath=".\3rd" Toggle="true" >
+            <Filter RelativePath=".\cjson" Toggle="true" >
+                <LuaFile RelativePath=".\json2lua.lua" />
+                <LuaFile RelativePath=".\lua2json.lua" />
+                <LuaFile RelativePath=".\test.lua" />
+                <LuaFile RelativePath=".\util.lua" />
+            </Filter>
+            <Filter RelativePath=".\luabitop" Toggle="false" >
+                <LuaFile RelativePath=".\bitbench.lua" />
+                <LuaFile RelativePath=".\bittest.lua" />
+                <LuaFile RelativePath=".\installpath.lua" />
+                <LuaFile RelativePath=".\md5test.lua" />
+                <LuaFile RelativePath=".\nsievebits.lua" />
+                <Filter RelativePath=".\doc" Toggle="true" >
+                    <Filter RelativePath=".\img" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\pbc" Toggle="true" >
+                <LuaFile RelativePath=".\parser.lua" />
+                <LuaFile RelativePath=".\protobuf.lua" />
+                <LuaFile RelativePath=".\test.lua" />
+                <LuaFile RelativePath=".\test2.lua" />
+                <LuaFile RelativePath=".\testparser.lua" />
+            </Filter>
+            <Filter RelativePath=".\pblua" Toggle="true" >
+                <LuaFile RelativePath=".\login_pb.lua" />
+                <LuaFile RelativePath=".\person_pb.lua" />
+            </Filter>
+            <Filter RelativePath=".\sproto" Toggle="true" >
+                <LuaFile RelativePath=".\print_r.lua" />
+                <LuaFile RelativePath=".\sproto.lua" />
+                <LuaFile RelativePath=".\sprotoparser.lua" />
+                <LuaFile RelativePath=".\test.lua" />
+                <LuaFile RelativePath=".\testall.lua" />
+                <LuaFile RelativePath=".\testrpc.lua" />
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\BoardLua" Toggle="true" />
+        <Filter RelativePath=".\Common" Toggle="false" >
+            <LuaFile RelativePath=".\define.lua" />
+            <LuaFile RelativePath=".\fun.lua" />
+            <LuaFile RelativePath=".\protocal.lua" />
+        </Filter>
+        <Filter RelativePath=".\Controller" Toggle="false" >
+            <LuaFile RelativePath=".\MessageCtrl.lua" />
+            <LuaFile RelativePath=".\PromptCtrl.lua" />
+        </Filter>
+        <Filter RelativePath=".\Logic" Toggle="false" >
+            <LuaFile RelativePath=".\CtrlManager.lua" />
+            <LuaFile RelativePath=".\Game.lua" />
+            <LuaFile RelativePath=".\LuaClass.lua" />
+            <LuaFile RelativePath=".\Network.lua" />
+        </Filter>
+        <Filter RelativePath=".\View" Toggle="false" >
+            <LuaFile RelativePath=".\MessagePanel.lua" />
+            <LuaFile RelativePath=".\PromptPanel.lua" />
+        </Filter>
+        <Filter RelativePath=".\GameCore" Toggle="false" >
+            <LuaFile RelativePath=".\ClassBase.lua" />
+            <LuaFile RelativePath=".\EntityBase.lua" />
+        </Filter>
+    </Filter>
+</Project>
